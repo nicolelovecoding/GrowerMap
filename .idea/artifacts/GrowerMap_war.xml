@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GrowerMap:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/GrowerMap_war</output-path>
+    <root id="archive" name="GrowerMap_war.war">
+      <element id="artifact" artifact-name="GrowerMap:war exploded" />
+    </root>
+  </artifact>
+</component>

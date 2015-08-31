@@ -1,0 +1,82 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+body {
+  padding-top: 70px;
+}
+
+
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.equal-height {
+	margin: 0 .9375em .9375em;
+	width: 47%;
+}
+
+p, .add-margin, .add-margin h3{
+	margin: 5px 15px 15px;
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+}
+
+
+.glyphicon-chevron-right {
+  background-image: url "../images/glyphicons_223_chevron-right.png";
+  width: 15px;
+  height: 15px;
+}
+
+.form-control{
+	margin-bottom: 15px;
+}
+
+/*
+ * Virtual Lawn
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+
+.equal-height {
+	height: auto;
+	width: 100%;
+}
+
+}
